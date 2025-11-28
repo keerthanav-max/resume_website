@@ -71,15 +71,15 @@ const siteConfig = {
     {
       title: 'Your Certificate or Specialization',
       specialization: true,
-      file: getAsset('images/education/Certifications/your-certificate.pdf'),
+      file: getAsset('images/education/Certifications/download.svg'),
       certificates: [
-        { name: 'Course 1', file: getAsset('images/education/Certifications/course-1.pdf') },
-        { name: 'Course 2', file: getAsset('images/education/Certifications/course-2.pdf') },
+        { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
+        { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
       ],
     },
     {
       title: 'Another Certificate',
-      file: getAsset('images/education/Certifications/another-certificate.pdf'),
+      file: getAsset('images/education/Certifications/download.svg'),
     },
   ],
 
@@ -127,7 +127,7 @@ const siteConfig = {
       authors: 'Your Name, Collaborator Name',
       conferences: 'Conference or Journal, Publisher',
       researchYr: 2024,
-      image: getAsset('/images/research/placeholder.png'),
+  image: getAsset('images/research/placeholder.png'),
       citation: {
         vancouver:
           'Author A, Author B. Title of the work. Venue, Year. DOI/URL.',
