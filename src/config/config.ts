@@ -29,6 +29,7 @@ const siteConfig = {
   { name: '9686567529t', url: '/contact' },
 ],
 
+blogs: [], // TODO ADDED THIS
   // Static blog entries. Use getAsset so the URL respects NEXT_PUBLIC_BASE_PATH / next.config.basePath
   // Add more entries here as you add more static HTML blog files under public/static_page/
  
